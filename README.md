@@ -1,6 +1,5 @@
 # Live Site :
-https://anantmehra-iiitk.github.io/https://anantmehra-iiitk.github.io/Basic-TO-DO-List//
-
+https://anantmehra-iiitk.github.io/Basic-TO-DO-List/
 
 ## Available Scripts
 
