@@ -6,8 +6,7 @@ import './App.css';
 
 const App = () => {
   const [courseGoals, setCourseGoals] = useState([
-    { text: '1', id: 'g1' },
-    { text: '2', id: 'g2' }
+    { text: 'Touch the copleted task in the list for deletion.', id: 'g1' }
   ]);
 
   const addGoalHandler = enteredText => {
@@ -42,13 +41,6 @@ const App = () => {
       </section>
       <section id="goals">
         {content}
-        {/* {courseGoals.length > 0 && (
-          <CourseGoalList
-            items={courseGoals}
-            onDeleteItem={deleteItemHandler}
-          />
-        ) // <p style={{ textAlign: 'center' }}>No goals found. Maybe add one?</p>
-        } */}
       </section>
     </div>
   );
