@@ -6,7 +6,7 @@ import './App.css';
 
 const App = () => {
   const [courseGoals, setCourseGoals] = useState([
-    { text: 'Touch the copleted task in the list for deletion.', id: 'g1' }
+    { text: 'Tap the task for deletion.', id: 'g1' }
   ]);
 
   const addGoalHandler = enteredText => {
